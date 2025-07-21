@@ -1,0 +1,12 @@
+@import "tailwindcss";
+@plugin "@tailwindcss/forms";
+
+/* Variables temáticas */
+@theme {
+   --background-image-home: url('/bg.svg');
+}
+
+/* Utilidad personalizada */
+@utility bg-home-xl {
+   background-size: 50%;
+}
